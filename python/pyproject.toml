@@ -14,7 +14,7 @@ dependencies = [
     "requests>=2.32.3, <3",
 ]
 description = "The official Python library for the InferenceBank API"
-readme = "README.md"
+readme = "../README.md"
 requires-python = ">=3.11"
 classifiers = [
     "Typing :: Typed",
