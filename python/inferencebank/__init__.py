@@ -7,8 +7,8 @@ class InferenceBank:
         if api_key:
             self.api_key = api_key
         else:
-            self.api_key = os.environ["INFERENCEBANK_API_KEY"]
+            self.api_key = os.environ["IBP_API_KEY"]
 
     def health_check(self):
-        host = os.environ.get("IBP_HOST", "https://inferencebank.org")
+        host = os.environ.get("IBP_HOST", "https://central.inferencebank.ai")
         return requests.get(f"{host}/api/health-check").json()
