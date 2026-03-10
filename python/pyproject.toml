@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "inferencebank"
 version = "0.0.1"
 authors = [
-    { name="InferenceBank", email="office@inferencebank.com" },
+    { name="InferenceBank", email="inquiries@inferencebank.org" },
 ]
 license = { text="MIT" }
 
@@ -31,6 +31,6 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://inferencebank.com"
+Homepage = "https://inferencebank.org"
 Repository = "https://github.com/inferencebank/inferencebank"
 Issues = "https://github.com/inferencebank/inferencebank/issues"
